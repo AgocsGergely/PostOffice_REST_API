@@ -1,1 +1,16 @@
-EndpointsURLHTTP methodAuthJSON Response/users/loginPOSTuser's token/usersGETYall users/countiesGETall counties/countiesPOSTYnew county added/counties/{id}GETsingle county/counties/{id}PATCHYedited county/counties/{id}DELETEYid/citiesGETall cities/citiesPOSTYnew city added/cities/{id}GETsingle city/cities/{id}PATCHYedited city/cities/{id}DELETEYid
+## Endpoints
+
+| URL | HTTP method | Auth | JSON Response |
+| --- | --- | --- | --- |
+| /users/login | POST | | user's token |
+| /users | GET | Y | all users |
+| /counties | GET | | all counties |
+| /counties | POST | Y | new county added |
+| /counties/{id} | GET | | county with the given id |
+| /counties/{id} | PATCH | Y | edited county |
+| /counties/{id} | DELETE | Y | id |
+| /cities | GET | | all cities |
+| /cities | POST | Y | new city added |
+| /cities/{id} | GET | | city with the given id |
+| /cities/{id} | PATCH | Y | edited city |
+| /cities/{id} | DELETE | Y | id |
