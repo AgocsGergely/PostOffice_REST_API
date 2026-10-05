@@ -1,0 +1,1 @@
+EndpointsURLHTTP methodAuthJSON Response/users/loginPOSTuser's token/usersGETYall users/countiesGETall counties/countiesPOSTYnew county added/counties/{id}GETsingle county/counties/{id}PATCHYedited county/counties/{id}DELETEYid/citiesGETall cities/citiesPOSTYnew city added/cities/{id}GETsingle city/cities/{id}PATCHYedited city/cities/{id}DELETEYid
