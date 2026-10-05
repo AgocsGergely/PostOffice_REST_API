@@ -1,0 +1,29 @@
+info:
+  name: POST_Cities
+  type: http
+  seq: 10
+
+http:
+  method: POST
+  url: http://localhost:8000/api/cities
+  body:
+    type: json
+    data: |-
+      {
+          "zip_code": 1011,
+          "name": "TesztElek",
+          "id_county": 1,
+          "population": 1686000,
+          "created_at": null,
+          "updated_at": null
+        }
+  auth:
+    type: bearer
+    token: "{{token}}"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

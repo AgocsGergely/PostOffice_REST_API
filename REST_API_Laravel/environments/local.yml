@@ -1,0 +1,5 @@
+name: local
+variables:
+  - name: token
+    value: 1|Wpn6eTfvkNqvNsJPw2B3WqpXnYDS6Da3nsnvZrZX67a9dcbe
+    description: ""
