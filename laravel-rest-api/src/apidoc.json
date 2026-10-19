@@ -1,0 +1,7 @@
+{
+  "name": "PostOffice API",
+  "version": "1.0.0",
+  "description": "REST API for counties and cities",
+  "title": "Cities API documentation",
+  "url": "http://localhost:8000/api"
+}
